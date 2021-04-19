@@ -10,7 +10,6 @@ public class ClienteService {
 
     private ClienteRepository repository;
 
-    @Autowired
     public ClienteService(ClienteRepository repository) {
         this.repository = repository;
     }
